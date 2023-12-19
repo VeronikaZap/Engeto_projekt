@@ -1,3 +1,4 @@
+-- veronikazap. 
 -- Vytvoření první tabulky
 CREATE TABLE t_Veronika_Zapletalova_project_SQL_primary_final4 AS (
 SELECT 
@@ -102,7 +103,7 @@ UNION
 	FROM t_Veronika_Zapletalova_project_SQL_primary_final4 tvzpspf
 	WHERE category_code = '114201'
 		AND `year` = (2018);
--- chleba
+-- chléb
 SELECT DISTINCT 
 	`year`,
 	round(average_wages_all/ average_price, 2) AS amount 
