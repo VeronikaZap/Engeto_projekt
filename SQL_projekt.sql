@@ -1,6 +1,6 @@
-/*
- * Vytvoření první tabulky
- */
+-- veronikazap. - jméno na Discordu
+
+-- Vytvoření první tabulky
 CREATE TABLE t_Veronika_Zapletalova_project_SQL_primary_final4 AS (
 SELECT 
 	cpf.average_price,
