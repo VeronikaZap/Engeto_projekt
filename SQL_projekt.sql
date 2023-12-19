@@ -1,6 +1,6 @@
-/*
- * Vytvoření první tabulky
- */
+-- veronikazap. - jméno na Discordu
+
+-- Vytvoření první tabulky
 CREATE TABLE t_Veronika_Zapletalova_project_SQL_primary_final4 AS (
 SELECT 
 	cpf.average_price,
@@ -159,7 +159,7 @@ HAVING percent - wages_growth>10;
 	
 SELECT 
 	tvzpspf.`year`, 
-	avg(tvzpspf.average_price) as average_price_all, 
+	avg(tvzpspf.average_price) AS average_price_all, 
 	tvzpspf.average_wages_all,
 	secondary.population,
 	secondary.GDP as GDP,
