@@ -1,5 +1,7 @@
 # Engeto_projekt
-Cílem Engeto SQL projektu bylo vytvořit dvě tabulky a odpovědět na 5 otázek. V některých případech data chybí, třeba ceny potravin jsou zaznamenány jen v letech 2006-2018, u některých potravin jsou informace dokonce kratší.
+Cílem Engeto SQL projektu bylo vytvořit dvě tabulky a odpovědět na 5 otázek. V některých případech data chybí, třeba ceny potravin jsou zaznamenány jen v letech 2006-2018.
+Nejdříve se musely vytvořit tabulky, ze kterých se pak dalo odpovědět na otázky. Do primary final se čerpalo z dat czechia_payroll, czechia_payroll_calculation, czechia_payroll_industry_branch, czechia_payroll_unit, czechia_payroll_value_type, czechia_price a czechia_price_category. Pro lepší odpovídání na otázky jsem si i rovnou vytvořila sloupec s průměrnou mzdou za všechna odvětví v daném roce.
+U tabulky secondary final se čerpalo z economies a countries. Po vytvoření tabulek se šlo na zodpovězení otázek.
 
 1.Rostou v průběhu let mzdy ve všech odvětvích, nebo v některých klesají?
 Mzdy ve všech letech nerostou, u některých odvětví je mzda vyšší než následující rok. Například v oblasti peněžnictví a pojišťovnictví byla mzda v roce 2013 nižší než v roce 2012. Je tomu tak u více odvětví, například činnosti v oblasti nemovitostí, těžba a dobývání a další.
