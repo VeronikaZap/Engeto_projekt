@@ -159,7 +159,7 @@ HAVING percent - wages_growth>10;
 	
 SELECT 
 	tvzpspf.`year`, 
-	avg(tvzpspf.average_price) as average_price_all, 
+	avg(tvzpspf.average_price) AS average_price_all, 
 	tvzpspf.average_wages_all,
 	secondary.population,
 	secondary.GDP as GDP,
